@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """ Define class Square"""
+
+
 class Square():
     """A class of Square that calculate the areaand permiter of Square"""
     width = 0
@@ -15,7 +17,7 @@ class Square():
         """ Area of the square """
         return self.width * self.height
 
-    def permiter_of_mySquare(self):
+    def permiter_of_my_square(self):
         """ Permiter of the square """
         return (self.width * 2) + (self.height * 2)
 
@@ -28,4 +30,4 @@ if __name__ == "__main__":
     s = square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
-    print(s.PermiterOfMySquare())
+    print(s.permiter_of_my_square())
